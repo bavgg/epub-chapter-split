@@ -31,7 +31,7 @@ def divide2chapters(epub_path):
     return chapters  # Return list of chapters
 
 # Define the EPUB file path and output directory
-ebook_path = "/Users/johndoe/epub-test/McIntyre, Marie G_ - Secrets to winning at office politics _ how to achieve your goals and increase your influence at work-St. Martin’s Press (2005).epub"
+ebook_path = ""
 chapters = divide2chapters(ebook_path)  # Process the EPUB file
 convert2html(chapters, "outputd")  # Save chapters as HTML files
 print(chapters[0])  # Print the content of the first chapter
